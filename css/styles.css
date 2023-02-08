@@ -83,7 +83,6 @@ body {
 
 
 .header-page {
-    min-width: 1440px;
     border-bottom: 1px solid var(--accent-color);
 }
 
