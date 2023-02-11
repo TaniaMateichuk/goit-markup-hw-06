@@ -357,16 +357,16 @@
                 </div>
                 <div>
                     <h2 class="footer-subscribe-title">Subscribe</h2>
-                    <form action="" class="form-footer" autocomplete="on">
-                        <label for="email">
+                    <form action="" class="form-subscribe" autocomplete="on">
+                        <label class="form-subscribe-label">
                         <input class="subscribe-email" type="email" placeholder="E-mail" name="email" id="email">
                         </label>
-                        <span class="wrap-btn-subscribe">
-                        <button class="btn-subscribe" type="submit">Subscribe</button>
-                        <svg class="icon-send" width="24px" height="20px">
-                            <use href="./images/icons.svg#icon-icon-send"></use>
-                        </svg>
-                        </span>
+                        <button class="btn-subscribe" type="submit">Subscribe
+                            <svg class="icon-send" width="24px" height="20px">
+                                <use href="./images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                        
                     </form>
                 </div>
         </div>
@@ -382,7 +382,7 @@
                 </svg>
             </button>
             <h2 class="modal-title">Leave your contacts and we will call you back</h2>
-                <form action="" autocomplete="on" class="form-modal">
+                <form autocomplete="on" class="form-modal">
                     <div class="modal-field">
                         <label for="name-modal" class="form-modal-label">Name
                         </label>
@@ -416,7 +416,7 @@
                 <div class="modal-field">
                     <label for="coment-modal" class="form-modal-label">Comment
                     </label>
-                    <textarea name="coment-modal" id="coment-modal" rows="12" placeholder="Text input" class="form-modal-comment"></textarea>
+                    <textarea name="coment-modal" id="coment-modal" placeholder="Text input" class="form-modal-comment"></textarea>
                 </div>
                     <div class="modal-field-check">
                         <input type="checkbox" id="check" name="check" class="modal-check visually-hidden">
